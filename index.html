@@ -10,8 +10,8 @@ humandate: "28th Sept 2016"    # human-readable dates for the workshop (e.g., "F
 humantime: "8:30-4:30"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2016-09-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2016-09-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Amanda Miotto, Kim Keogh, Heidi Perrett"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Amanda Miotto, Kim Keogh, Heidi Perrett"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Kim Keogh, Heidi Perrett, Amanda Miotto"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Kim Keogh, Heidi Perrett, Amanda Miotto"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "a.miotto@griffith.edu.au"      # contact email address for host, lead instructor, or whoever else is handling questions
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -303,30 +303,32 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> <!-- End of 'R' section. -->
 
-<!--
-  Uncomment this section if you are using our virtual machine.
+<p><h3>Lesson R Important links, lessons and data</h3></p>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-inflammation/">http://swcarpentry.github.io/r-novice-inflammation/</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip">http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</a></p>
+<p>We are gong to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
+ <br/> 
+<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
+<p></p>
+<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
+<p></p>
+<p>Mac:</p>
+<p>curl -O http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
+<p>unzip r-novice-inflammation-data.zip</p>
+<p></p>
+<p>Linux:</p>
+<p>wget http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zipp</p>
+<p>unzip r-novice-inflammation-data.zip</p>
 
-<div id="vm">
-  <h3>Virtual Machine</h3>
+<div id="Containers"> <!-- Start of 'Containers' section. -->
+  <h3>If all else fails- ResBaz Cloud</h3>
 
   <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
+    If you have issues with these installations, please arrive to class early 
+    and an instructor can assist you in installation. Failing that, available are
+    the ResBaz Cloud that we can use to do this work via a web browser. Please find the 
+    site below, log in via the Australia Access Federation then ask an instructor for the password.
+    <a href="https://resbaz.cloud.edu.au/">ResBaz Cloud</a>.
   </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
--->
+  </div>
