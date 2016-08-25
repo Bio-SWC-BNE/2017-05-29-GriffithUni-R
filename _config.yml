@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Software Carpentry R - Nathan Campus"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: a.miotto@griffith.edu.au
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
